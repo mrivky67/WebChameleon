@@ -20,11 +20,11 @@ setup(
         "numpy>=1.21.0",
         "brotli>=1.1.0",
     ],
-    author="Your Name",
+    author="Muhammad Rivky",
     description="Advanced web scraping and API reversal tool",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/webchameleon",
+    url="https://github.com/mrivky67/webchameleon",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
