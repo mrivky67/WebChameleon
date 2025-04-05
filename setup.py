@@ -1,9 +1,20 @@
 from setuptools import setup, find_packages
 
+# Read the README file for the long description
+with open("README.md", "r", encoding="utf-8") as fh:
+    long_description = fh.read()
+
 setup(
-    name="webchameleon",
-    version="1.3.0",
+    name="webchameleon",  # Package name (lowercase, no spaces or special characters)
+    version="1.3.0",  # Initial version (increment this for future releases)
+    author="Muhammad Rivky",  # Replace with your name
+    author_email="muhrivky67@gmail.com",  # Replace with your email
+    description="A powerful web scraping and API reversal tool",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+    url="https://github.com/mrivky67/webchameleon",
     packages=find_packages(),
+    include_package_data=True,
     install_requires=[
         "requests>=2.25.1",
         "beautifulsoup4>=4.9.3",
@@ -20,14 +31,19 @@ setup(
         "numpy>=1.21.0",
         "brotli>=1.1.0",
     ],
-    author="Muhammad Rivky",
-    description="Advanced web scraping and API reversal tool",
-    long_description=open("README.md").read(),
-    long_description_content_type="text/markdown",
-    url="https://github.com/mrivky67/webchameleon",
     classifiers=[
         "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
+        "Programming Language :: Python :: 3.12",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
+        "Intended Audience :: Developers",
+        "Topic :: Software Development :: Libraries :: Python Modules",
     ],
+    python_requires=">=3.7",  # Minimum Python version
+    keywords="web scraping, api reversal, data extraction, automation",  # Keywords for searchability
 )
