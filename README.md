@@ -22,7 +22,7 @@
 
 1. **Clone the Repository**
 ```bash
-git clone https://github.com/yourusername/webchameleon.git
+git clone https://github.com/mrivky67/webchameleon.git
 cd webchameleon
 ```
 
