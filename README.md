@@ -1,6 +1,6 @@
 # WebChameleon
 
-![Python](https://img.shields.io/badge/python-3.7%2B-blue) ![License](https://img.shields.io/badge/license-MIT-green) ![Version](https://img.shields.io/badge/version-1.0.0-brightgreen)
+![Python](https://img.shields.io/badge/python-3.7%2B-blue) ![License](https://img.shields.io/badge/license-MIT-green) ![Version](https://img.shields.io/badge/version-1.3.0-brightgreen)
 
 **WebChameleon** is a powerful tool for web scraping and API reversal, designed for developers, data researchers, and tech professionals. With features like dynamic structure analysis, automatic API detection, and graph-based relation mapping, WebChameleon enables efficient and ethical data extraction from various websites.
 
@@ -206,54 +206,4 @@ chameleon = WebChameleon(
 - `DisguiseManager`
 - `StorageManager`
 
----
-
-### Contributing Guide
-
-#### How to Contribute
-1. **Fork the Repository**
-2. **Clone the Repository**
-```bash
-git clone https://github.com/yourusername/webchameleon.git
-cd webchameleon
-```
-3. **Create a New Branch**
-```bash
-git checkout -b feature/your-feature-name
-```
-4. **Make Changes**
-5. **Add Tests** (in `tests/` directory)
-6. **Commit Changes**
-```bash
-git add .
-git commit -m "Added your-feature-name feature"
-```
-7. **Push and Create Pull Request**
-```bash
-git push origin feature/your-feature-name
-```
-
-#### Code Guidelines
-- Follow **PEP 8**
-- Write **docstrings**
-- Comment **complex logic**
-
-#### Reporting Bugs
-- Open an Issue with:
-  - Description
-  - Steps to reproduce
-  - Expected vs. actual output
-
-#### Proposing Features
-Open an issue with the `enhancement` label:
-- Describe the feature
-- Benefits
-- Optional implementation plan
-
-#### Contact
-Open GitHub Issues or email: `your.email@example.com`
-
----
-
-End of documentation.
 
