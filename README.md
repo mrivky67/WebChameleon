@@ -172,7 +172,6 @@ relations = await chameleon.map_relations(data, "relations.graphml", weight_thre
 ```python
 auth_config={"headers": {"Authorization": "Bearer your_api_key"}}
 ```
-- `use_playwright`: Set to `True` for dynamic sites.
 
 ---
 
