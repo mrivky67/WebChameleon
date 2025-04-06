@@ -68,7 +68,7 @@ python examples/reverse_api_example.py
 
 #### Installing as a Package
 ```bash
-pip install -e .
+pip install webchameleon-tool .
 ```
 You can now import WebChameleon from anywhere:
 ```python
